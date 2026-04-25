@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from tools.orders import get_orders
-from tools.inventory import get_inventory
-from tools.anomaly import detect_anomalies
+from app.tools.orders import get_orders
+from app.tools.inventory import get_inventory
+from app.tools.anomaly import detect_anomalies
 
 app = FastAPI(title="MCP Tool Server")
 

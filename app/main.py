@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from agent.agent import run_agent
+from app.agent.agent import run_agent
 from dotenv import load_dotenv
-from schema.agent import QueryRequest
+from app.schemas.agent import QueryRequest
 
 load_dotenv()
 

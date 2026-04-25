@@ -1,7 +1,7 @@
 import requests
 import os
 from openai import AzureOpenAI
-from agent.tools_schema import tools
+from app.agent.tools_schema import tools
 
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_KEY"),
