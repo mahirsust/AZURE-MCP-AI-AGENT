@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables (IMPORTANT)
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Azure / deployment artifacts
+*.PublishSettings
+
+# pytest / cache
+.pytest_cache/
+.coverage
+
+# Docker (if used later)
+docker-compose.override.yml
